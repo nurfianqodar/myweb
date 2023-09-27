@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nurfian Qodar</title>
+        <link rel="stylesheet" href="css/main.css" />
+
+        <!-- My Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Header -->
+        <header
+            class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+        >
+            <div class="container relative">
+                <div class="flex items-center justify-between">
+                    <div class="px-4 items-center">
+                        <a
+                            href="#home"
+                            class="font-bold text-lg text-sky-500 block py-6"
+                            >Nurfian Qodar</a
+                        >
+                    </div>
+                    <div class="flex items-center px-4">
+                        <button
+                            type="button"
+                            id="nav-toggle"
+                            class="block absolute right-4 lg:hidden"
+                        >
+                            <span class="menu-line origin-top-left"></span>
+                            <span class="menu-line"></span>
+                            <span class="menu-line origin-bottom-left"></span>
+                        </button>
+
+                        <nav
+                            id="nav-menu"
+                            class="hidden absolute bg-white shadow-lg py-5 max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none"
+                        >
+                            <ul class="block lg:flex">
+                                <li class="group">
+                                    <a
+                                        href="#home"
+                                        class="text-base text-slate-700 py-2 mx-8 flex"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="group">
+                                    <a
+                                        href="#about"
+                                        class="text-base text-slate-700 py-2 mx-8 flex"
+                                        >About Me</a
+                                    >
+                                </li>
+                                <li class="group">
+                                    <a
+                                        href="#skill"
+                                        class="text-base text-slate-700 py-2 mx-8 flex"
+                                        >My Skill</a
+                                    >
+                                </li>
+                                <li class="group">
+                                    <a
+                                        href="#biodata"
+                                        class="text-base text-slate-700 py-2 mx-8 flex"
+                                        >Biodata</a
+                                    >
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section ======================================================================================= -->
+        <section id="home" class="pt-36">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div class="w-full self-center px-4 lg:w-1/2">
+                        <div class="mx-auto">
+                            <h1
+                                class="text-xl font-semibold text-slate-600 lg:text-2xl"
+                            >
+                                Hi I'm
+                                <span
+                                    class="block text-sky-500 text-4xl mt-1 mb-2"
+                                    >Nurfian Qodar</span
+                                >
+                            </h1>
+                            <h2
+                                class="text-base text-slate-500 font-light mb-5"
+                            >
+                                Siliwangi University
+                                <span class="font-medium"
+                                    >Agriculture Student</span
+                                >
+                            </h2>
+                            <p
+                                class="font-medium text-slate-700 mb-10 leading-relaxed"
+                            >
+                                Combining my passion for farming with my love
+                                for programming, I envision a remarkable journey
+                                where I harness cutting-edge technology to
+                                revolutionize agricultural practices.
+                            </p>
+                            <a
+                                href="#about"
+                                class="text-base font-semibold text-white bg-sky-400 rounded-full py-3 px-8 hover:bg-sky-500 transition duration-300 ease-in-out"
+                                >Be My Friend</a
+                            >
+                        </div>
+                    </div>
+                    <div class="w-full self-end px-4 lg:w-1/2">
+                        <div class="mt-10 lg:mt-0 mx-auto lg:right-0">
+                            <img
+                                src="img/nurfian.png"
+                                alt="Nurfian Qodar"
+                                class="max-w-full mx-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section ======================================================================================= -->
+        <section id="about" class="pt-32 py-32">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div class="w-full px-4 mb-10 lg:w-1/2">
+                        <h1 class="font-bold text-sky-500 text-xl mb-3">
+                            About Me
+                        </h1>
+                        <h2
+                            class="text-3xl font-semibold text-slate-500 mb-4 max-w-md"
+                        >
+                            Nurfian?
+                        </h2>
+                        <p
+                            class="leading-relaxed text-base font-medium mb-3 max-w-xl text-slate-700"
+                        >
+                            I am an agricultural student at Siliwangi
+                            University, deeply passionate about farming.
+                            Additionally, I find great joy in web development,
+                            where I craft virtual landscapes with programming.
+                        </p>
+                        <p
+                            class="leading-relaxed text-base font-medium max-w-xl text-slate-700"
+                        >
+                            My journey blends the wonders of agriculture with
+                            the art of coding, creating a unique path of
+                            innovation and growth.
+                        </p>
+                    </div>
+                    <div
+                        class="w-full px-4 lg:w-1/2 flex flex-col justify-center"
+                        id="socmed"
+                    >
+                        <h1
+                            class="text-2xl font-semibold text-sky-500 mb-4 lg:pt-15"
+                        >
+                            My Social Media
+                        </h1>
+                        <p class="font-medium text-base mb-5 text-slate-700">
+                            Follow Nurfian Qodar's social media for a better
+                            quality of life. What is the relation? Yes, nothing
+                            :D
+                        </p>
+                        <div class="flex items-center justify-evenly mt-3 mx-4">
+                            <!-- Whats App -->
+                            <a
+                                href="https://wa.me/085520749954"
+                                target="_blank"
+                                class="px-3 py-3 rounded-full flex items-center justify-center border border-slate-300 text-slate-500 hover:text-[#25D366] hover:border-[#25D366]"
+                            >
+                                <svg
+                                    role="img"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    class="fill-current hover:scale-[140%] transition duration-150"
+                                >
+                                    <title>WhatsApp</title>
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                                    />
+                                </svg>
+                            </a>
+
+                            <!-- Telegram -->
+                            <a
+                                href="https://t.me/fynnn77"
+                                target="_blank"
+                                class="px-3 py-3 rounded-full flex items-center justify-center border border-slate-300 text-slate-500 hover:text-[#26A5E4] hover:border-[#26A5E4]"
+                            >
+                                <svg
+                                    role="img"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    class="fill-current hover:scale-[140%] transition duration-150"
+                                >
+                                    <title>Telegram</title>
+                                    <path
+                                        d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"
+                                    />
+                                </svg>
+                            </a>
+
+                            <!-- Instgram -->
+                            <a
+                                href="https://www.instagram.com/imfyn77/"
+                                target="_blank"
+                                class="px-3 py-3 rounded-full flex items-center justify-center border border-slate-300 text-slate-500 hover:text-[#E4405F] hover:border-[#E4405F]"
+                            >
+                                <svg
+                                    role="img"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    class="fill-current hover:scale-[140%] transition duration-150"
+                                >
+                                    <title>Instagram</title>
+                                    <path
+                                        d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                                    />
+                                </svg>
+                            </a>
+
+                            <!-- Facebook -->
+                            <a
+                                href="https://facebook.com/nurfian.qodar/"
+                                target="_blank"
+                                class="px-3 py-3 rounded-full flex items-center justify-center border border-slate-300 text-slate-500 hover:text-[#1877F2] hover:border-[#1877F2]"
+                            >
+                                <svg
+                                    role="img"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    class="fill-current hover:scale-[140%] transition duration-150"
+                                >
+                                    <title>Facebook</title>
+                                    <path
+                                        d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfilio Section ================================================================================-->
+        <section id="skill" class="bg-slate-200 pt-36 pb-16">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h1 class="font-bold text-2xl text-sky-500">
+                        My Programming Skill
+                    </h1>
+                    <h2 class="text-xl font-light text-slate-500 mb-5">
+                        Web Development
+                    </h2>
+                    <p class="font-semibold text-base text-slate-500 mb-5">
+                        Farmer? Programmer? <br />
+                        Nothing is imposible. <br />
+                        Break your limit.
+                    </p>
+
+                    <div
+                        class="flex flex-wrap items-center m-auto justify-center"
+                    >
+                        <!-- JS -->
+                        <a
+                            href="#"
+                            class="mx-3 my-3 px-5 py-5 bg-white rounded-full"
+                        >
+                            <svg
+                                role="img"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="40"
+                                class="fill-[#F7DF1E] hover:scale-[130%] transition duration-150"
+                            >
+                                <title>Vanilla JavaScript</title>
+                                <path
+                                    d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"
+                                />
+                            </svg>
+                        </a>
+
+                        <!-- Python -->
+                        <a
+                            href="#"
+                            class="mx-3 my-3 px-5 py-5 bg-white rounded-full"
+                        >
+                            <svg
+                                role="img"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="40"
+                                class="fill-[#3776AB] hover:scale-[130%] transition duration-150"
+                            >
+                                <title>Python</title>
+                                <path
+                                    d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"
+                                />
+                            </svg>
+                        </a>
+                        <!-- Django -->
+                        <a
+                            href="#"
+                            class="mx-3 my-3 px-5 py-5 bg-white rounded-full"
+                        >
+                            <svg
+                                role="img"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="40"
+                                class="fill-[#092E20] hover:scale-[130%] transition duration-150"
+                            >
+                                <title>Django Farmework</title>
+                                <path
+                                    d="M11.146 0h3.924v18.166c-2.013.382-3.491.535-5.096.535-4.791 0-7.288-2.166-7.288-6.32 0-4.002 2.65-6.6 6.753-6.6.637 0 1.121.05 1.707.203zm0 9.143a3.894 3.894 0 00-1.325-.204c-1.988 0-3.134 1.223-3.134 3.365 0 2.09 1.096 3.236 3.109 3.236.433 0 .79-.025 1.35-.102V9.142zM21.314 6.06v9.098c0 3.134-.229 4.638-.917 5.937-.637 1.249-1.478 2.039-3.211 2.905l-3.644-1.733c1.733-.815 2.574-1.53 3.109-2.625.561-1.121.739-2.421.739-5.835V6.059h3.924zM17.39.021h3.924v4.026H17.39z"
+                                />
+                            </svg>
+                        </a>
+                        <!-- HTML -->
+                        <a
+                            href="#"
+                            class="mx-3 my-3 px-5 py-5 bg-white rounded-full"
+                        >
+                            <svg
+                                role="img"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="40"
+                                class="fill-[#E34F26] hover:scale-[130%] transition duration-150"
+                            >
+                                <title>HTML5</title>
+                                <path
+                                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"
+                                />
+                            </svg>
+                        </a>
+                        <!-- CSS -->
+                        <a
+                            href="#"
+                            class="mx-3 my-3 px-5 py-5 bg-white rounded-full"
+                        >
+                            <svg
+                                role="img"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="40"
+                                class="fill-[#1572B6] hover:scale-[130%] transition duration-150"
+                            >
+                                <title>CSS3</title>
+                                <path
+                                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"
+                                />
+                            </svg>
+                        </a>
+
+                        <!-- Tailwind CSS -->
+                        <a
+                            href="#"
+                            class="mx-3 my-3 px-5 py-5 bg-white rounded-full"
+                        >
+                            <svg
+                                role="img"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="40"
+                                class="fill-[#06B6D4] hover:scale-[130%] transition duration-150"
+                            >
+                                <title>Tailwind CSS</title>
+                                <path
+                                    d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
+                                />
+                            </svg>
+                        </a>
+
+                        <!-- Bootstrap -->
+                        <a
+                            href="#"
+                            class="mx-3 my-3 px-5 py-5 bg-white rounded-full"
+                        >
+                            <svg
+                                role="img"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="40"
+                                class="fill-[#7952B3] hover:scale-[130%] transition duration-150"
+                            >
+                                <title>Bootstrap</title>
+                                <path
+                                    d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Biodata ================================================================================= -->
+
+        <section id="biodata" class="w-full pt-36 pb-24">
+            <div class="container">
+                <h1 class="text-center text-3xl font-bold text-slate-500 mx-10">
+                    My Biodata
+                </h1>
+                <div class="my-6 mx-5">
+                    <div class="my-4">
+                        <h2 class="font-light text-lg text-slate-500">
+                            Full Name
+                        </h2>
+                        <h1 class="font-semibold text-2xl text-sky-700">
+                            Nurfian Qodar
+                        </h1>
+                    </div>
+
+                    <div class="my-4">
+                        <h2 class="font-light text-lg text-slate-500">
+                            Nickname
+                        </h2>
+                        <h1 class="font-semibold text-2xl text-sky-700">
+                            Fian
+                        </h1>
+                    </div>
+
+                    <div class="my-4">
+                        <h2 class="font-light text-lg text-slate-500">
+                            Place of Birth
+                        </h2>
+                        <h1 class="font-semibold text-2xl text-sky-700">
+                            Ciamis - West Java
+                        </h1>
+                    </div>
+
+                    <div class="my-4">
+                        <h2 class="font-light text-lg text-slate-500">
+                            Date of Birth
+                        </h2>
+                        <h1 class="font-semibold text-2xl text-sky-700">
+                            27 November 2003
+                        </h1>
+                    </div>
+
+                    <div class="my-4">
+                        <h2 class="font-light text-lg text-slate-500">
+                            Addres
+                        </h2>
+                        <h1 class="font-semibold text-2xl text-sky-700">
+                            Rancah village, Rancah sub-district, Ciamis district
+                            - West Java
+                        </h1>
+                    </div>
+
+                    <div class="my-4">
+                        <h2 class="font-light text-lg text-slate-500">
+                            University
+                        </h2>
+                        <h1 class="font-semibold text-2xl text-sky-700">
+                            Siliwangi University
+                        </h1>
+                    </div>
+
+                    <div class="my-4">
+                        <h2 class="font-light text-lg text-slate-500">
+                            Study Program
+                        </h2>
+                        <h1 class="font-semibold text-2xl text-sky-700">
+                            Agrotechnology, Faculty of Agriculture
+                        </h1>
+                    </div>
+
+                    <div class="my-4">
+                        <h2 class="font-light text-lg text-slate-500">
+                            Educational Background
+                        </h2>
+                        <ul class="list-disc">
+                            <li>
+                                <h1 class="font-semibold text-2xl text-sky-700">
+                                    SDN 4 Rancah (2011)
+                                </h1>
+                            </li>
+                            <li>
+                                <h1 class="font-semibold text-2xl text-sky-700">
+                                    SMPN 2 Rancah (2016 - 2019)
+                                </h1>
+                            </li>
+                            <li>
+                                <h1 class="font-semibold text-2xl text-sky-700">
+                                    MAN 6 Ciamis (2019 - 2022)
+                                </h1>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer ============================================================= -->
+        <footer class="bg-slate-700 pt-10 pb-2 w-full">
+            <h2 class="ml-5 my-4 text-white text-sm font-light">
+                &copy;2023 | Created by
+                <a
+                    href="#"
+                    class="font-semibold text-sky-500 hover:text-sky-200"
+                    >Nurfian Qodar</a
+                >
+            </h2>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
